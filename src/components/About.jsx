@@ -36,30 +36,30 @@ function About() {
             >
               <div
                 className="skill"
-                // data-skill-progress-bar-width="60"
-                // data-skill-color="#f18b6d"
+                data-skill-progress-bar-width="60"
+                data-skill-color="#f18b6d"
               >
                 <div className="skill-top clearfix">
                   ::before
                   <div
                     className="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
-                    role="progressbar"
-                    // aria-valuemin="0"
-                    // aria-valuemax="100"
-                    // aria-valuenow="60"
+                    role='progressbar'
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    aria-valuenow={60}
                   >
                     <div
                       className="ui-progressbar-value ui-corner-left ui-widget-header"
-                      style="width: 60%; background-color: rgb(241, 139, 109);"
+                      // style="width: 60%; background-color: rgb(241, 139, 109);"
                     >
                       <span
                         className="ui-progressbar-value-circle"
-                        style="background-color: #f18b6d"
+                        // style="background-color: #f18b6d"
                       >
                         "60%"
                         <span
                           className="ui-progressbar-value-triangle"
-                          style="border-top-color: #f18b6d; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent;"
+                          // style="border-top-color: #f18b6d; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent;"
                         ></span>
                       </span>
                     </div>
