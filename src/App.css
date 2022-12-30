@@ -2,11 +2,6 @@
   box-sizing: border-box;
 }
 
-.ui-progressbar-value, .ui-corner-left, .ui-widget-header {
-  width: 60%; 
-  background-color: rgb(241, 139, 109);
-}
-
 /* header */
 .bottom-header, .front-page{
   background-image: url(../public/images/front-page/front-page-header.jpg);
@@ -75,4 +70,11 @@
   padding-top: 100px;
   padding-bottom: 30px;
   margin-left: 12%;
+}
+
+/* about */
+
+#illdy_skill-2, .ui-progressbar-value, .ui-corner-left, .ui-widget-header {
+  width: 60%; 
+  background-color: rgb(241, 139, 109);
 }
