@@ -24,9 +24,7 @@ function About() {
       </div>
       <div className="section-content">
         <div className="container">
-          ::before
           <div className="row">
-            ::before
             <div
               id="illdy_skill-2"
               className="col-sm-4 col-sm-offset-0 col-xs-10 col-xs-offset-1 col-lg-4 col-lg-offset-0 widget_illdy_skill"
@@ -37,7 +35,6 @@ function About() {
                 data-skill-color="#f18b6d"
               >
                 <div className="skill-top clearfix">
-                  ::before
                   <div
                     className="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
                     role="progressbar"
@@ -46,31 +43,25 @@ function About() {
                     aria-valuenow={60}
                   >
                     <div
-                      className="ui-progressbar-value ui-corner-left ui-widget-header"
-                      // style="width: 60%; background-color: rgb(241, 139, 109);"
+                      className="ui-progressbar-value ui-corner-left ui-widget-header skill-widget-2"
                     >
                       <span
-                        className="ui-progressbar-value-circle"
-                        // style="background-color: #f18b6d"
+                        className="ui-progressbar-value-circle skill-circle-2"
                       ></span>
                       <span
-                        className="ui-progressbar-value-top"
-                        // style="background-color: #f18b6d"
+                        className="ui-progressbar-value-top skill-top-2"
                       >
-                        "60%"
+                        60%
                         <span
-                          className="ui-progressbar-value-triangle"
-                          // style="border-top-color: #f18b6d; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent;"
+                          className="ui-progressbar-value skill-value-2"
                         ></span>
                       </span>
                     </div>
                   </div>
-                  ::after
                 </div>
-                <div className="skill-bottom" 
-                  // style="color: rgb(241, 139, 109);"
+                <div className="skill-bottom bottom-2" 
                 >
-                  <i className="fa fa-font">::before</i>
+                  <i className="fa fa-font"></i>
                   <span>Typography</span>
                 </div>
               </div>
@@ -85,7 +76,6 @@ function About() {
                 data-skill-color="#f1d204"
               >
                 <div className="skill-top clearfix">
-                  ::before
                   <div
                     className="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
                     role="progressbar"
@@ -94,31 +84,25 @@ function About() {
                     aria-valuenow={82}
                   >
                     <div
-                      className="ui-progressbar-value ui-corner-left ui-widget-header"
-                      // style="width: 82%; background-color: rgb(241, 210, 4);"
+                      className="ui-progressbar-value ui-corner-left ui-widget-header skill-widget-3"
                     >
                       <span
-                        className="ui-progressbar-value-circle"
-                        // style="background-color: #f1d204"
+                        className="ui-progressbar-value-circle skill-circle-3"
                       ></span>
                       <span
-                        className="ui-progressbar-value-top"
-                        // style="background-color: #f1d204"
+                        className="ui-progressbar-value-top skill-top-3"
                       >
-                        "82%"
+                        82%
                         <span
-                          className="ui-progressbar-value-triangle"
-                          // style="border-top-color: #f1d204; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent;"
+                          className="ui-progressbar-value-triangle skill-value-3"
                         ></span>
                       </span>
                     </div>
                   </div>
-                  ::after
                 </div>
-                <div className="skill-bottom" 
-                  // style="color: rgb(241, 210, 4);"
+                <div className="skill-bottom bottom-3" 
                 >
-                  <i className="fa fa-pencil">::before</i>
+                  <i className="fa fa-pencil"></i>
                   <span>Design</span>
                 </div>
               </div>
@@ -133,7 +117,6 @@ function About() {
                 data-skill-color="#6a4d8a"
               >
                 <div className="skill-top clearfix">
-                  ::before
                   <div
                     className="skill-progress-bar ui-progressbar ui-corner-all ui-widget ui-widget-content"
                     role="progressbar"
@@ -142,31 +125,25 @@ function About() {
                     aria-valuenow={87}
                   >
                     <div
-                      className="ui-progressbar-value ui-corner-left ui-widget-header"
-                      // style="width: 87%; background-color: rgb(106, 77, 138);"
+                      className="ui-progressbar-value ui-corner-left ui-widget-header skill-widget-4"
                     >
                       <span
-                        className="ui-progressbar-value-circle"
-                        // style="background-color: #6a4d8a"
+                        className="ui-progressbar-value-circle skill-circle-4"
                       ></span>
                       <span
-                        className="ui-progressbar-value-top"
-                        // style="background-color: #6a4d8a"
+                        className="ui-progressbar-value-top skill-top-4"
                       >
-                        "87%"
+                        87%
                         <span
-                          className="ui-progressbar-value-triangle"
-                          // style="border-top-color: #6a4d8a; border-right-color: transparent; border-bottom-color: transparent; border-left-color: transparent;"
+                          className="ui-progressbar-value-triangle skill-value-4"
                         ></span>
                       </span>
                     </div>
                   </div>
-                  ::after
                 </div>
-                <div className="skill-bottom" 
-                  // style="color: rgb(106, 77, 138);"
+                <div className="skill-bottom bottom-4" 
                 >
-                  <i className="fa fa-code">::before</i>
+                  <i className="fa fa-code"></i>
                   <span>Development</span>
                 </div>
               </div>

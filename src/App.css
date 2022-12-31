@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+/* nav */
+#menu-illdy-main{
+  display: flex;
+  justify-content: end;
+}
+
 /* header */
 .bottom-header, .front-page{
   background-image: url(../public/images/front-page/front-page-header.jpg);
@@ -74,7 +80,82 @@
 
 /* about */
 
-#illdy_skill-2, .ui-progressbar-value, .ui-corner-left, .ui-widget-header {
+/* typography */
+.skill-widget-2 {
   width: 60%; 
   background-color: rgb(241, 139, 109);
+}
+.skill-circle-2{
+  background-color: #f18b6d;
+}
+.skill-top-2{
+  background-color: #f18b6d;
+}
+.skill-value-2{
+  border-top-color: #f18b6d;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.bottom-2{
+  color: rgb(241, 139, 109);
+}
+
+/* design */
+.skill-widget-3 {
+  width: 60%; 
+  background-color: rgb(241, 210, 4);
+}
+.skill-circle-3{
+  background-color: #f1d204;
+}
+.skill-top-3{
+  background-color: #f1d204;
+}
+.skill-value-3{
+  border-top-color: #f1d204;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.bottom-3{
+  color: rgb(241, 210, 4);
+}
+
+/* development */
+.skill-widget-4 {
+  width: 60%; 
+  background-color: rgb(106, 77, 138);
+}
+.skill-circle-4{
+  background-color: #6a4d8a;
+}
+.skill-top-4{
+  background-color: #6a4d8a;
+}
+.skill-value-4{
+  border-top-color: #6a4d8a;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+}
+.bottom-4{
+  color: rgb(106, 77, 138);
+}
+
+/* project */
+.project-3{
+  background-image: url('../public/images/front-page/front-page-project-4.jpg');
+  height: 66.5px;
+}
+.project-4{
+  background-image: url('../public/images/front-page/front-page-project-3.jpg');
+  height: 66.5px;
+}
+.project-5{
+  background-image: url('../public/images/front-page/front-page-project-2.jpg');
+  height: 66.5px;
+}.project-6{
+  background-image: url('../public/images/front-page/front-page-project-1.jpg');
+  height: 66.5px;
 }
