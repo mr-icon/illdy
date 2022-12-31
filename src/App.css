@@ -159,3 +159,6 @@
   background-image: url('../public/images/front-page/front-page-project-1.jpg');
   height: 66.5px;
 }
+.section-description{
+  display: block; 
+}
