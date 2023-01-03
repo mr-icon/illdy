@@ -2,7 +2,7 @@ import React from "react";
 
 function Testimonial() {
   return (
-    <section id="testimonials" className="front-page-section">
+    <section id="testimonials" className="front-page-section section-3">
       <div className="section-header">
         <div className="container">
           <div className="row">
@@ -19,7 +19,7 @@ function Testimonial() {
               <div className="testimonials-carousel owl-carousel-enabled">
                 <div className="owl-stage-outer">
                   <div
-                    className="owl-stage"
+                    className="owl-stage stage-1"
                     // style="transform: translate3d(-266px, 0px, 0px); transition: all 0s ease 0s; width: 1064px;"
                   >
                     <div
@@ -32,7 +32,7 @@ function Testimonial() {
                       >
                         <div className="carousel-testimonial">
                           <div className="testimonial-image">
-                            <img src="" alt="" />
+                            <img src="front-page-testimonial-1.jpg" alt="" />
                           </div>
                           <div className="testimonial-content">
                             <blockquote>
@@ -65,7 +65,7 @@ function Testimonial() {
                       >
                         <div className="carousel-testimonial">
                           <div className="testimonial-image">
-                            <img src="" alt="" />
+                            <img src="front-page-testimonial-2.jpg" alt="" />
                           </div>
                           <div className="testimonial-content">
                             <blockquote>
@@ -98,7 +98,7 @@ function Testimonial() {
                       >
                         <div className="carousel-testimonial">
                           <div className="testimonial-image">
-                            <img src="" alt="" />
+                            <img src="front-page-testimonial-3.jpg" alt="" />
                           </div>
                           <div className="testimonial-content">
                             <blockquote>
@@ -131,7 +131,7 @@ function Testimonial() {
                       >
                         <div className="carousel-testimonial">
                           <div className="testimonial-image">
-                            <img src="" alt="" />
+                            <img src="front-page-testimonial-4.jpg" alt="" />
                           </div>
                           <div className="testimonial-content">
                             <blockquote>
@@ -170,16 +170,16 @@ function Testimonial() {
                     </div>
                   </div>
                   <div className="owl-dots">
-                    <button className="owl-dot active">
+                    <button className="owl-dot active" id="owl-1">
                       <span></span>
                     </button>
-                    <button className="owl-dot">
+                    <button className="owl-dot" id="owl-2">
                       <span></span>
                     </button>
-                    <button className="owl-dot">
+                    <button className="owl-dot" id="owl-3">
                       <span></span>
                     </button>
-                    <button className="owl-dot">
+                    <button className="owl-dot" id="owl-4">
                       <span></span>
                     </button>
                   </div>

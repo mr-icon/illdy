@@ -674,7 +674,6 @@ a:hover, a:focus {
 #testimonials .section-content .testimonials-carousel .owl-controls .owl-dots .owl-dot {
 	width: 10px;
 	height: 10px;
-	background-color: #fff;
 	margin: 0 7.5px;
 	display: inline-block;
 	-webkit-transition: all 0.3s;
@@ -682,6 +681,7 @@ a:hover, a:focus {
 	-o-transition: all 0.3s;
 	transition: all 0.3s;
 	border-radius: 50%;
+	border-color: transparent;
 }
 
 #testimonials .section-content .testimonials-carousel .owl-controls .owl-dots .owl-dot:hover, #testimonials .section-content .testimonials-carousel .owl-controls .owl-dots .owl-dot.active {

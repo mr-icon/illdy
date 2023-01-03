@@ -162,3 +162,31 @@
 .section-description{
   display: block; 
 }
+
+/* testimonial */
+.stage-1{
+  display: flex;
+  margin-left: 24%;
+  transform: translate3d(-266px, 0px, 0px);
+  transition: all 0s ease 0s; 
+  width: 4064px;
+  font-weight: 700;
+}
+.owl-stage-outer{
+  overflow: hidden;
+}
+
+.section-3{
+  background-image: url('../public/images/testiomnials-background.jpg');
+  background-repeat: no-repeat;
+}
+.owl-item{
+  width: 1033px; 
+  margin-right: 0px;
+} 
+.owl-prev{
+  display: none;
+}
+.owl-next{
+  display: none;
+}
