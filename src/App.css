@@ -200,3 +200,14 @@
 .service-title-3{
   color: rgb(106, 77, 138);
 }
+
+/* Latest */
+.card-post-1{
+  background-image: url('../public/images/blog/blog-1.jpeg');
+}
+.card-post-2{
+  background-image: url('../public/images/blog/blog-2.jpeg');
+}
+.card-post-3{
+  background-image: url('../public/images/blog/blog-3.jpeg');
+}

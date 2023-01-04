@@ -7,6 +7,8 @@ import About from './components/About';
 import Project from './components/Project';
 import Testimonial from './components/Testimonial';
 import Service from './components/Service';
+import Latest from './components/Latest';
+import Team from './components/Team';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
       <Project />
       <Testimonial />
       <Service />
+      <Latest />
+      <Team />
     </div>
   );
 }
