@@ -170,7 +170,6 @@
   transform: translate3d(-266px, 0px, 0px);
   transition: all 0s ease 0s; 
   width: 4064px;
-  font-weight: 700;
 }
 .owl-stage-outer{
   overflow: hidden;
@@ -189,4 +188,15 @@
 }
 .owl-next{
   display: none;
+}
+
+/* Services */
+.service-title-1{
+  color: rgb(241, 139, 109);
+}
+.service-title-2{
+  color: rgb(241, 210, 4);
+}
+.service-title-3{
+  color: rgb(106, 77, 138);
 }

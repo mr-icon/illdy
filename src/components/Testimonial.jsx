@@ -122,7 +122,7 @@ function Testimonial() {
                       </div>
                     </div>
                     <div
-                      className="owl-item "
+                      className="owl-item"
                     //   style="width: 133px; margin-right: 0px;"
                     >
                       <div
