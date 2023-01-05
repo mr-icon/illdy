@@ -211,3 +211,16 @@
 .card-post-3{
   background-image: url('../public/images/blog/blog-3.jpeg');
 }
+
+/* Team */
+.position-1{
+  color: rgb(241, 139, 109);
+}
+.position-2{
+  color: rgb(241, 210, 4);
+}.position-3{
+  color: rgb(106, 77, 138);
+}
+.person-entry{
+  color: #8c9597;
+}

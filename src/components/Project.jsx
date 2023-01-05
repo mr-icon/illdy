@@ -2,24 +2,24 @@ import React from "react";
 
 function Project() {
   return (
-    <section id="projects" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
+    <section id="projects" className="front-page-section">
+      <div className="section-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
               <h3>Projects</h3>
             </div>
             <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
+              <div className="section-description">
                 You'll love our work. Check it out!
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="section-content">
-        <div class="container-fluid">
-          <div class="row inline-columns">
+      <div className="section-content">
+        <div className="container-fluid">
+          <div className="row inline-columns">
             <div
               id="illdy_project-3"
               className="col-sm-3 col-xs-6 no-padding widget_illdy_project"

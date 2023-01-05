@@ -2,15 +2,15 @@ import React from "react";
 
 function Latest() {
   return (
-    <section id="latest-news" class="front-page-section">
-      <div class="section-header">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
+    <section id="latest-news" className="front-page-section">
+      <div className="section-header">
+        <div className="container">
+          <div className="row">
+            <div className="col-sm-12">
               <h3>Latest News</h3>
             </div>
-            <div class="col-sm-10 col-sm-offset-1">
-              <div class="section-description">
+            <div className="col-sm-10 col-sm-offset-1">
+              <div className="section-description">
                 If you are interested in the latest articles in the industry,
                 take a sneak peek at our blog. You have got nothing to loose!
               </div>
@@ -18,60 +18,58 @@ function Latest() {
           </div>
         </div>
       </div>
-      <a href=" " class="latest-news-button">
-        <i class="fa fa-chevron-circle-right"></i>See blog
+      <a href=" " className="latest-news-button">
+        <i className="fa fa-chevron-circle-right"></i>See blog
       </a>
-      <div class="section-content">
-        <div class="container">
-          <div class="row blog-carousel">
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div class="post-image card-post-1"></div>
+      <div className="section-content">
+        <div className="container">
+          <div className="row blog-carousel">
+            <div className="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+              <div className="post">
+                <div className="post-image card-post-1"></div>
                 <h5>
-                  <a href="" class="post-title">
+                  <a href="" className="post-title">
                     We Have Made Illdy Theme SEO Friendly
                   </a>
                 </h5>
-                <div class="post-entry">
-                  " Illdy One Page WordPress theme is fully SEO friendly and is
-                  ready to help you to achieve the highest rankings... "
+                <div className="post-entry">
+                  Illdy One Page WordPress theme is fully SEO friendly and is
+                  ready to help you to achieve the highest rankings... 
                 </div>
-                <a href="" class="post-button">
-                  <i class="fa fa-chevron-circle-right"></i>Read more
+                <a href="" className="post-button">
+                  <i className="fa fa-chevron-circle-right"></i>Read more
                 </a>
               </div>
             </div>
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div class="post-image card-post-2"></div>
+            <div className="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+              <div className="post">
+                <div className="post-image card-post-2"></div>
                 <h5>
-                  <a href="" class="post-title">
-                    We Have Made Illdy Theme SEO Friendly
+                  <a href="" className="post-title">
+                    Stunning One Page WordPress Theme For Masses
                   </a>
                 </h5>
-                <div class="post-entry">
-                  " Illdy One Page WordPress theme is fully SEO friendly and is
-                  ready to help you to achieve the highest rankings... "
+                <div className="post-entry">
+                  This theme is not just free, it is free for private and commercial use since it is licensed under GPL...
                 </div>
-                <a href="" class="post-button">
-                  <i class="fa fa-chevron-circle-right"></i>Read more
+                <a href="" className="post-button">
+                  <i className="fa fa-chevron-circle-right"></i>Read more
                 </a>
               </div>
             </div>
-            <div class="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
-              <div class="post">
-                <div class="post-image card-post-3"></div>
+            <div className="illdy-blog-post col-md-4 col-sm-6 col-xs-12">
+              <div className="post">
+                <div className="post-image card-post-3"></div>
                 <h5>
-                  <a href="" class="post-title">
-                    We Have Made Illdy Theme SEO Friendly
+                  <a href="" className="post-title">
+                    Hello World!
                   </a>
                 </h5>
-                <div class="post-entry">
-                  " Illdy One Page WordPress theme is fully SEO friendly and is
-                  ready to help you to achieve the highest rankings... "
+                <div className="post-entry">
+                  Welcome to colorlib.com. This our first post around illdy WordPress theme. Now show that you can make out of it...
                 </div>
-                <a href="" class="post-button">
-                  <i class="fa fa-chevron-circle-right"></i>Read more
+                <a href="" className="post-button">
+                  <i className="fa fa-chevron-circle-right"></i>Read more
                 </a>
               </div>
             </div>
