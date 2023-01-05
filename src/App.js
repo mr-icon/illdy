@@ -9,6 +9,7 @@ import Testimonial from './components/Testimonial';
 import Service from './components/Service';
 import Latest from './components/Latest';
 import Team from './components/Team';
+import Contact from './components/Contact';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Service />
       <Latest />
       <Team />
+      <Contact />
     </div>
   );
 }
