@@ -10,6 +10,7 @@ import Service from './components/Service';
 import Latest from './components/Latest';
 import Team from './components/Team';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Latest />
       <Team />
       <Contact />
+      <Footer />
     </div>
   );
 }
